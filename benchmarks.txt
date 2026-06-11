@@ -1,0 +1,8 @@
+# Benchmarking Results (NCLDV dataset)
+# All times are 'elapsed time' from /usr/bin/time
+
+Tool    | Time      | Memory (maxresident)
+------------------------------------------
+SWIPE   | 78:16 min | 99 MB
+BLAST+  | 20:17 min | 1.9 GB
+MMseqs2 | 01:42 min | 1.4 GB
