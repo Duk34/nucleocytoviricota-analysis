@@ -40,7 +40,7 @@ mmseqs createdb Nucleocytoviricota.faa Nucleocytoviricota
 /usr/bin/time mmseqs search Nucleocytoviricota Nucleocytoviricota result tmp --threads 32
 mmseqs convertalis Nucleocytoviricota Nucleocytoviricota result Nucleocytoviricota.mmseqs.m8
 cat Nucleocytoviricota.mmseqs.m8 | sed 's/lcl|//' | awk '$1!=$2' >Nucleocytoviricota.mmseqs.wo_self.m8
-
+rm -rf temp
 # Keep all relevant output files in our home directory
 mv *.wo_self.m8 ~/
 
