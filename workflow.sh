@@ -7,7 +7,7 @@
 # I just modified them to suit my needs
 
 # 1. SETUP & PREREQUISITES
-# Ensure your sequence file is named 'Nucleocytoviricota.faa' and placed in the root direct
+# Ensure your sequence file is named 'Nucleocytoviricota.faa' and placed in the root directory
 
 # Converting the file into BLAST+ database
 module load BLAST+
