@@ -1,5 +1,5 @@
 # nucleocytoviricota-analysis
-My attempt to recreate findings of Yutin et al (2009), as part of university work.
+My attempt to compare three local sequence alignment algorithms (SWIPE, BLAST+ and MMseq2), as part of university work.
 # Project Description
 This repository contains a comparative analysis of three sequence similarity search tools — **SWIPE**, **BLAST+**, and **MMseqs2** — applied to the analysis of the Nucleocytoviricota (NCLDV) sequence dataset. The goal is to evaluate the performance (time/memory) and sensitivity of these tools in detecting homologous sequences.
 
