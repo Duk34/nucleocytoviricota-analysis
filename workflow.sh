@@ -41,7 +41,6 @@ mmseqs createdb Nucleocytoviricota.faa Nucleocytoviricota
 mmseqs convertalis Nucleocytoviricota Nucleocytoviricota result Nucleocytoviricota.mmseqs.m8
 cat Nucleocytoviricota.mmseqs.m8 | sed 's/lcl|//' | awk '$1!=$2' >Nucleocytoviricota.mmseqs.wo_self.m8
 rm -rf temp
-# Keep all relevant output files in our home directory
-mv *.wo_self.m8 ~/
+
 
 
